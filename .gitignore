@@ -7,6 +7,7 @@
 .netrwhist
 spell
 tmp
+/.tmp
 config/personal.vim
 doc/tags
 *.cache
