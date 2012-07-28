@@ -111,11 +111,11 @@ set cpoptions=aABceFsq   " q: When joining multiple lines leave the cursor at th
 
 " default color scheme
 if has("gui_running")
-	let w:solarized_style = 'light'
-	set background=light
+	set background=dark
 	colorscheme solarized
 else
-	colorscheme peaksea
+	set background=dark
+	colorscheme pyte
 endif
 
 if &t_Co > 2 || has("gui_running")

@@ -31,3 +31,14 @@ exec 'source '.g:vimconfigdir.g:sep.'auto_commands.vim'
 
 " <url:~/.vim/config/personal.vim#tn=Personal Settings:>
 exec 'source '.g:vimconfigdir.g:sep.'personal.vim'
+
+"syntax enable
+"set background=dark
+"colorscheme solarized
+
+exec 'source '.g:vimdir.g:sep.'bundle'.g:sep.'command-t'.g:sep.'plugin'.g:sep.'command-t.vim'
+
+" Just say no to tabs
+set tabstop=2            " number of spaces to indent when tab-key is pressed
+set shiftwidth=2         " number of space characters inserted for indentation
+set expandtab            " insert space characters whenever the tab key is pressed
